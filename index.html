@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ahmed's Personal Site</title>
+  <!-- <link rel="stylesheet" href="empty_styles.css"> -->
+</head>
+
+<body>
+  <section>
+
+    <figure>
+      <img src="C:\Users\ahmed\Pictures\Camera Roll\ucsdid1.jpg" alt="id" height="200" width="150">
+      <figcaption>A picture of me from summer 2019. </figcaption>
+    </figure>
+    <header class="title">
+      <h1>Ahmed Hussaini</h1>
+      <h2>4th Year <em>Computer Engineering Student</em></h2>
+      <h3>email: <strong>a5hussai@ucsd.edu</strong></h3>
+      <nav>
+        <a href="https://www.linkedin.com/in/ah-2019/">LinkedIn</a>
+        <a href="https://github.com/Ahmedh786?tab=repositories">GitHub</a>
+      </nav>
+      <h4>My school:</h4>
+      <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-117.28737831115724%2C32.85363394278486%2C-117.20704078674318%2C32.90401951965012&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+      <br /><small><a href="https://www.openstreetmap.org/#map=14/32.8788/-117.2472">View Larger Map</a></small>
+    </header>
+  </section>
+  <hr>
+  <main>
+    <h3>About Me:</h3>
+    <div class="">
+      <p>A wise man once said:</p>
+      <pre><i>
+          "Start <span><b>whenever</b></span>, start <span><b>rarely</b></span>."
+      </i></pre>
+      <p>That man was me. Here's a sunset using SVG:</p>
+      <svg viewBox="0 0 300 10" xmlns="http://www.w3.org/2000/svg" stroke="yellow" fill="gold">
+        <circle cx="10" cy="10" r="10" />
+        rect
+      </svg>
+      <h4>How I get waken up in the morning:</h4>
+      <audio controls src="554316__franco1904__clock-iphone.wav"></audio>
+      <br>
+      <h4>A block-based coding explanation by me from EDS 124BR:</h4>
+      <video controls src="ScratchCoding.mp4" height="250" width="400"></video>
+      <br>
+    </div>
+    <p>My favorite coding concept is using a <code>class</code> since I can encapsulate my information.</p>
+    <aside class="origins-fact">
+      <p>I was born in Hyderabad, India, and <br> moved to California when I was 2. I <br>lived in Irvine, then Mission Viejo, and <br> now moved to Lake Forest. </p>
+    </aside>
+    <hr>
+    <u><b>Here's a list of my favorite programming languages:</b></u>
+    <ul>
+      <li>Java</li>
+      <li>C++</li>
+      <li>Python</li>
+      <li>HTML(?)</li>
+    </ul>
+    <details>
+      <summary>Fun(?) Fact</summary>
+      My CC made me learn C++ as my first programming language and it was an...interesting experience.
+    </details>
+    <br>
+    <u><b>And here's a few of my favorite video games:</b></u>
+    <ol>
+      <li>The Witcher 3</li>
+      <li>Red Dead Redemption 2</li>
+      <li>The Last of Us</li>
+    </ol>
+    <u><b>And here's some of my favorite hobbies:</b></u>
+    <table cellspacing=30px;>
+      <colgroup>
+        <col>
+        <col span="2" class="hobby">
+        <col span="2" class="image">
+      </colgroup>
+      <thead>
+        <th scope="col">Hobby</th>
+        <th scope="col">Image</th>
+      </thead>
+      <tr>
+        <td>Basketball!</td>
+        <td>
+          <picture>
+            <source srcset="https://i.ytimg.com/vi/DHLRuWgh0Hg/maxresdefault.jpg" media="(min-width: 1000px)">
+            <img class="bball" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/basketball_1f3c0.png" alt="bball">
+          </picture>
+        </td>
+      </tr>
+      <tr>
+        <td>Music!</td>
+        <td>
+          <img class="ye" src="https://tse1.mm.bing.net/th?id=OIP.dOd0_SWWOyjcE2g0LtPdAAHaHa&pid=Api&P=0&w=300&h=300" alt="kanye" height="130" width="120">
+        </td>
+      </tr>
+      <tr>
+        <td>Hiking!</td>
+        <td>
+          <img class="hiker" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/person-walking_medium-dark-skin-tone_1f6b6-1f3fe_1f3fe.png" alt="hiker">
+        </td>
+      </tr>
+      <caption>My hobbies.</caption>
+    </table>
+    <hr>
+  </main>
+  <p>Want to contact me? Here's some things I want to know about you...</p>
+  <form class="contact-info" action="index.html" method="post" id="survey">
+    <p><u><b>Formal stuff</b></u></p>
+    <label for="name">Your name:</label>
+    <input type="text" name="name" value="">
+    <br>
+    <label for="email">Your email:</label>
+    <input type="email" name="email" value="">
+    <br>
+    <label for="age">Your age:</label>
+    <input type="number" name="age" value="">
+    <br>
+    <label for="date">The current date:</label>
+    <input type="date" name="date" value="">
+    <br>
+    <label for="resume">Your resume (if u want lol):</label>
+    <input type="file" name="resume" value="">
+    <br>
+    <p><u><b>Fun stuff</b></u></p>
+    <label for="sports">Your favorite sport?</label>
+    <select class="sports" name="sports">
+      <optgroup>
+        <option>Basketball</option>
+        <option>Football</option>
+        <option>Soccer</option>
+        <option>Baseball</option>
+        <option>Tennis</option>
+        <option>I hate sports</option>
+      </optgroup>
+    </select>
+    <fieldset>
+      <legend>Your favorite genre of music?</legend>
+      <input type="radio" name="hiphop">
+      <label for="hiphop">Hip-Hop</label>
+      <br>
+      <input type="radio" name="pop">
+      <label for="pop">Pop</label>
+      <br>
+      <input type="radio" name="rock">
+      <label for="rock">Rock</label>
+      <br>
+      <input type="radio" name="metal">
+      <label for="metal">Metal</label>
+      <br>
+      <input type="radio" name="rnb">
+      <label for="rnb">RnB</label>
+      <br>
+    </fieldset>
+    <br>
+    <label for="anime">Do you watch anime?</label>
+    <input list="anime-list" name="" value="">
+    <datalist class="anime" id="anime-list">
+      <option>All day errryday!</option>
+      <option>A decent amount</option>
+      <option>Rarely, only seen a couple</option>
+      <option>Ugh no I hate it!</option>
+    </datalist>
+    <br>
+    <label for="color">Pick your favorite color:</label>
+    <input type="color" name="color" value="">
+    <br>
+    <label for="excitement">How excited are you for another online quarter?</label>
+    <input type="range" name="excited" min="1" max="10" value="">
+    <br> <br>
+    <input type="submit" name="submit" value="Submit">
+    <input type="reset" name="reset" value="Reset">
+  </form>
+  <form class="thoughts" action="index.html" method="post" id="thoughts">
+    <br>
+    <label for="message">Anything else you'd like me to know (optional):</label>
+    <textarea name="message" rows="8" cols="80"></textarea>
+    <br>
+  </form>
+  <button name="button" form="thoughts">Submit</button>
+  <p>Salamanders are a group of amphibians with a lizard-like appearance, including short legs and a tail in both larval and adult forms.</p>
+
+<aside>
+    <p>The Rough-skinned Newt defends itself with a deadly neurotoxin.</p>
+</aside>
+
+<p>Several species of salamander inhabit the temperate rainforest of the Pacific Northwest, including the Ensatina, the Northwestern Salamander and the Rough-skinned Newt. Most salamanders are nocturnal, and hunt for insects, worms and other small creatures.</p>
+
+  <footer>
+    <p>Thanks for visiting my website, I really appreciate it!</p>
+  </footer>
+</body>
+
+</html>
