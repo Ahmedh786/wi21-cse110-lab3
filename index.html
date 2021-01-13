@@ -11,7 +11,7 @@
   <section>
 
     <figure>
-      <img src="ucsdid1 (2).jpg" alt="id" height="200" width="150">
+      <img src="ucsdid1(2).jpg" alt="id" height="200" width="150">
       <figcaption>A picture of me from summer 2019. </figcaption>
     </figure>
     <header class="title">
@@ -23,7 +23,7 @@
         <a href="https://github.com/Ahmedh786?tab=repositories">GitHub</a>
       </nav>
       <h4>My school (might be super zoomed out for some reason):</h4>
-      <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+      <iframe width="425" height="350"
         src="https://www.openstreetmap.org/export/embed.html?bbox=-117.28737831115724%2C32.85363394278486%2C-117.20704078674318%2C32.90401951965012&amp;layer=mapnik" style="border: 1px solid black"></iframe>
       <br /><small><a href="https://www.openstreetmap.org/#map=14/32.8788/-117.2472">View Larger Map</a></small>
     </header>
@@ -39,7 +39,6 @@
       <p>That man was me. Here's a sunset using SVG:</p>
       <svg viewBox="0 0 300 10" xmlns="http://www.w3.org/2000/svg" stroke="yellow" fill="gold">
         <circle cx="10" cy="10" r="10" />
-        rect
       </svg>
       <h4>How I get waken up in the morning:</h4>
       <audio controls src="554316__franco1904__clock-iphone.wav"></audio>
@@ -72,17 +71,17 @@
       <li>The Last of Us</li>
     </ol>
     <u><b>And here's some of my favorite hobbies:</b></u>
-    <table cellspacing=30px;>
+    <table>
+      <caption>My hobbies.</caption>
       <colgroup>
         <col>
-        <col span="2" class="hobby">
-        <col span="2" class="image">
+        <col span="1">
+        <col span="1">
       </colgroup>
       <thead>
-        <th scope="col">Hobby</th>
-        <th scope="col">Image</th>
       </thead>
       <tr>
+        <th scope="col"></th>
         <td>Basketball!</td>
         <td>
           <picture>
@@ -92,18 +91,19 @@
         </td>
       </tr>
       <tr>
+        <th scope="col"></th>
         <td>Music!</td>
         <td>
           <img class="ye" src="https://tse1.mm.bing.net/th?id=OIP.dOd0_SWWOyjcE2g0LtPdAAHaHa&pid=Api&P=0&w=300&h=300" alt="kanye" height="130" width="120">
         </td>
       </tr>
       <tr>
+        <th scope="col"></th>
         <td>Hiking!</td>
         <td>
           <img class="hiker" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/person-walking_medium-dark-skin-tone_1f6b6-1f3fe_1f3fe.png" alt="hiker">
         </td>
       </tr>
-      <caption>My hobbies.</caption>
     </table>
     <hr>
   </main>
@@ -111,24 +111,24 @@
   <form class="contact-info" action="index.html" method="post" id="survey">
     <p><u><b>Formal stuff</b></u></p>
     <label for="name">Your name:</label>
-    <input type="text" name="name" value="">
+    <input type="text" name="name" id="name">
     <br>
     <label for="email">Your email:</label>
-    <input type="email" name="email" value="">
+    <input type="email" name="email" id="email">
     <br>
     <label for="age">Your age:</label>
-    <input type="number" name="age" value="">
+    <input type="number" name="age" id="age">
     <br>
     <label for="date">The current date:</label>
-    <input type="date" name="date" value="">
+    <input type="date" name="date" id="date">
     <br>
     <label for="resume">Your resume (if u want lol):</label>
-    <input type="file" name="resume" value="">
+    <input type="file" name="resume" id="resume">
     <br>
     <p><u><b>Fun stuff</b></u></p>
     <label for="sports">Your favorite sport?</label>
-    <select class="sports" name="sports">
-      <optgroup>
+    <select class="sports" name="sports" id="sports">
+      <optgroup label="Sports">
         <option>Basketball</option>
         <option>Football</option>
         <option>Soccer</option>
@@ -139,25 +139,25 @@
     </select>
     <fieldset>
       <legend>Your favorite genre of music?</legend>
-      <input type="radio" name="hiphop">
+      <input type="radio" name="hiphop" id="hiphop">
       <label for="hiphop">Hip-Hop</label>
       <br>
-      <input type="radio" name="pop">
+      <input type="radio" name="pop" id="pop">
       <label for="pop">Pop</label>
       <br>
-      <input type="radio" name="rock">
+      <input type="radio" name="rock" id="rock">
       <label for="rock">Rock</label>
       <br>
-      <input type="radio" name="metal">
+      <input type="radio" name="metal" id="metal">
       <label for="metal">Metal</label>
       <br>
-      <input type="radio" name="rnb">
+      <input type="radio" name="rnb" id="rnb">
       <label for="rnb">RnB</label>
       <br>
     </fieldset>
     <br>
     <label for="anime">Do you watch anime?</label>
-    <input list="anime-list" name="" value="">
+    <input list="anime-list" id="anime">
     <datalist class="anime" id="anime-list">
       <option>All day errryday!</option>
       <option>A decent amount</option>
@@ -166,10 +166,10 @@
     </datalist>
     <br>
     <label for="color">Pick your favorite color:</label>
-    <input type="color" name="color" value="">
+    <input type="color" name="color" id="color">
     <br>
     <label for="excitement">How excited are you for another online quarter?</label>
-    <input type="range" name="excited" min="1" max="10" value="">
+    <input type="range" name="excited" min="1" max="10" id="excitement">
     <br> <br>
     <input type="submit" name="submit" value="Submit">
     <input type="reset" name="reset" value="Reset">
@@ -177,7 +177,7 @@
   <form class="thoughts" action="index.html" method="post" id="thoughts">
     <br>
     <label for="message">Anything else you'd like me to know (optional):</label>
-    <textarea name="message" rows="8" cols="80"></textarea>
+    <textarea name="message" rows="8" cols="80" id="message"></textarea>
     <br>
   </form>
   <button name="button" form="thoughts">Submit</button>
