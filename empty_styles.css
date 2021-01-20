@@ -1,4 +1,29 @@
+audio {
+  margin: 10px 0 10px 20px;
+}
+
 h2 {
   color: hsla(40, 70%, 40%, 0.5);
   text-shadow: 1px 1px #FF0103;
+  font-size: 1.4em;
+}
+
+iframe {
+  width: 425px;
+  height: 350px;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+SVG {
+  margin: auto;
+}
+
+#quote {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
