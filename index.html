@@ -5,17 +5,33 @@
   <meta charset="utf-8">
   <title>Ahmed's Personal Site</title>
   <link rel="stylesheet" href="empty_styles.css">
+  <style media="screen">
+    .intro {
+      border-radius: 0;
+      border-width: 2px;
+      border-style: groove;
+      border-color: rgba(200, 55, 0, 0.5);
+    }
+    #name {
+      color: rgb(0, 55, 200);
+      text-decoration: underline;
+      text-decoration-color: 3px #000;
+    }
+    * {
+      border: 0;
+      border-color: hsl(360, 100%, 100%);
+    }
+  </style>
 </head>
 
-<body>
-  <section>
-
+<body style="background-color: lightblue;">
+  <section class="intro">
     <figure>
       <img src="ucsdid1(2).jpg" alt="id" height="200" width="150">
       <figcaption>A picture of me from summer 2019. </figcaption>
     </figure>
     <header class="title">
-      <h1>Ahmed Hussaini</h1>
+      <h1 id="name">Ahmed Hussaini</h1>
       <h2>4th Year <em>Computer Engineering Student</em></h2>
       <h3>email: <strong>a5hussai@ucsd.edu</strong></h3>
       <nav>
