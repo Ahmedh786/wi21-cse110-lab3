@@ -19,6 +19,15 @@ p {
 
 SVG {
   margin: auto;
+  max-width: 500%;
+}
+
+.bball:hover {
+  background-color: purple;
+}
+
+.hiker:hover {
+  background-color: green;
 }
 
 #quote {
@@ -26,4 +35,29 @@ SVG {
   margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+#me {
+  display: inline-block;
+  position: relative;
+  left: 630px;
+}
+
+#mecap {
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+a[id="linked"] {
+  color: blue;
+  display: inline;
+  position: fixed;
+  right: 20px;
+}
+
+a[id="git"] {
+  color: black;
+  display: inline;
 }
