@@ -8,10 +8,18 @@ audio {
   }
 }
 
+form label {
+  color: darkblue;
+}
+
 h2 {
   color: hsla(40, 70%, 40%, 0.5);
   text-shadow: 1px 1px #FF0103;
   font-size: 1.4em;
+}
+
+main + hr {
+  border: 3px solid darkblue;
 }
 
 iframe {
@@ -19,8 +27,9 @@ iframe {
   height: 350px;
 }
 
-p {
-  font-size: 0.9em;
+div ~ p {
+  font-size: 1.1em;
+  color: purple;
 }
 
 SVG {
@@ -28,7 +37,7 @@ SVG {
   max-width: 500%;
 }
 
-.arrow {
+div > p[class="arrow"] {
   color: white;
   font-size: 200%;
 }
@@ -37,7 +46,7 @@ SVG {
   background-color: purple;
 }
 
-.flex {
+div.flex {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -59,15 +68,15 @@ SVG {
   height: 100px;
 }
 
-.text-red {
-  color: black;
-  text-align: center;
-  line-height: 75px;
-  font-size: 100%;
-}
-
 .text-black {
   color: red;
+}
+
+.text-red {
+  color: black;
+}
+
+.text-red, .text-black {
   text-align: center;
   line-height: 75px;
   font-size: 100%;
